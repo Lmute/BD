@@ -1,5 +1,5 @@
-
-local masih = 326824638
+--Begin info.lua By @SoLiD
+local Solid = 326824638
 local function setrank(msg, user_id, value,chat_id)
   local hash = nil
 
@@ -30,7 +30,7 @@ local function info_cb(arg, data)
   end
 	local hash = 'rank:'..arg.chat_id..':variables'
    local text = "_First name :_ *"..firstname.."*\n_Last name :_ *"..lastname.."*\n_Username :_ "..username.."\n_ID :_ *"..data.id_.."*\n\n"
-		    if data.id_ == tonumber(masih) then
+		    if data.id_ == tonumber(Solid) then
 		       text = text..'_Rank :_ *Executive Admin*\n\n'
 			   elseif is_sudo1(data.id_) then
 	           text = text..'_Rank :_ *Full Access Admin*\n\n'
@@ -80,7 +80,7 @@ local function info_by_username(arg, data)
   end
 	local hash = 'rank:'..arg.chat_id..':variables'
    local text = "_First name :_ *"..firstname.."*\n_Last name :_ *"..lastname.."*\n_Username :_ "..username.."\n_ID :_ *"..data.id_.."*\n\n"
-		    if data.id_ == tonumber(masih) then
+		    if data.id_ == tonumber(Solid) then
 		       text = text..'_Rank :_ *Executive Admin*\n\n'
 			   elseif is_sudo1(data.id_) then
 	           text = text..'_Rank :_ *Full Access Admin*\n\n'
@@ -125,7 +125,7 @@ local function info_by_id(arg, data)
   end
 	local hash = 'rank:'..arg.chat_id..':variables'
    local text = "_First name :_ *"..firstname.."*\n_Last name :_ *"..lastname.."*\n_Username :_ "..username.."\n_ID :_ *"..data.id_.."*\n\n"
-		    if data.id_ == tonumber(masih then
+		    if data.id_ == tonumber(Solid) then
 		       text = text..'_Rank :_ *Executive Admin*\n\n'
 			   elseif is_sudo1(data.id_) then
 	           text = text..'_Rank :_ *Full Access Admin*\n\n'
@@ -196,7 +196,7 @@ local function info2_cb(arg, data)
   end
 	local hash = 'rank:'..arg.chat_id..':variables'
    local text = "_First name :_ *"..firstname.."*\n_Last name :_ *"..lastname.."*\n_Username :_ "..username.."\n_ID :_ *"..data.id_.."*\n\n"
-		    if data.id_ == tonumber(masih) then
+		    if data.id_ == tonumber(Solid) then
 		       text = text..'_Rank :_ *Executive Admin*\n\n'
 			   elseif is_sudo1(data.id_) then
 	           text = text..'_Rank :_ *Full Access Admin*\n\n'
